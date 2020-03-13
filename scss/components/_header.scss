@@ -1,0 +1,39 @@
+.header {
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  border-bottom: 4px solid var(--primary);
+}
+
+.header__logo {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.header__nav {
+  align-items: start;
+  background: var(--primary);
+  border-radius: 8px;
+  display: grid;
+  gap: 20px;
+  grid-auto-flow: column;
+  padding: 12px;
+}
+
+.header__link {
+  border-bottom: 2px solid;
+  color: white;
+  text-decoration: none;
+}
+
+.header__link--active {
+  border-width: 4px;
+}
+
+.header__button {
+  background: white;
+  border: 2px solid;
+  border-radius: 8px;
+  color: var(--primary);
+  padding: 12px;
+}
