@@ -1,0 +1,60 @@
+
+.main__h2{
+    margin-top: 3rem;
+    text-decoration: underline;
+}
+
+.name {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.name__formular--button{
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 4px;
+    &:active {
+        background: cornflowerblue;
+    }
+}
+
+.about {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about__formular--button {
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 3px;
+    &:active {
+        background: cornflowerblue;
+    }
+}
+
+.confirm {
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.confirm__checkbox{
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.confirm__button--thebutton{
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 7px;
+    &:active {
+        background: cornflowerblue;
+    }
+}
+
+.faq {
+    font-size: 8px;
+}
